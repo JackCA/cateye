@@ -1,0 +1,9 @@
+{
+  "name": "cateyebrand",
+  "root": "./public",
+  "clean_urls": true,
+  "cache_control": {},
+  "routes": {
+    "/illustrations": "index.html"
+  }
+}

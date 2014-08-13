@@ -1,0 +1,30 @@
+{
+  "name": "your-app",
+  "description": "Description",
+  "author": "Your Name",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "test": "brunch test"
+  },
+  "dependencies": {
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "css-brunch": ">= 1.0 < 1.8",
+    "uglify-js-brunch": "~1.7.6",
+    "clean-css-brunch": ">= 1.0 < 1.8",
+    "auto-reload-brunch": "~1.7.1",
+    "coffee-script-brunch": "~1.7.3",
+    "sass-brunch": "~1.8.0",
+    "digest-brunch": "~1.0.4",
+    "jaded-brunch": "~1.7.8-hotfix",
+    "ember-handlebars-brunch": "1.2.0"
+  },
+  "devDependencies": {
+    "karma": "^0.12.16",
+    "node-bourbon": "~1.2.3"
+  }
+}

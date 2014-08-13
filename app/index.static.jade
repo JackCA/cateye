@@ -1,0 +1,43 @@
+doctype html
+html(lang='en')
+  head
+    link(rel='stylesheet', href='DIGEST(app.css)')
+    script(src='DIGEST(app.js)')
+    title CateyeBrand.com
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+
+    script(type="text/javascript" src="//use.typekit.net/tqb0kdi.js")
+    script.
+      try {
+        Typekit.load({
+          loading: function() {
+            // JavaScript to execute when fonts start loading
+          },
+          active: function() {
+            // JavaScript to execute when fonts become active
+            require('javascripts/app');
+          },
+          inactive: function() {
+            // JavaScript to execute when fonts become inactive
+          }
+        })
+      } catch(e) {}
+
+  body
+    #content
+      .logo-wrapper
+        img#logo(src='logo.svg')
+      nav
+        ul
+          li.wow.will-animate
+            a#illustration-link(href='#') illustration
+          li.wow.will-animate
+            a(href='http://instagram.com/bf_hoodrich') instagram
+          li.wow.will-animate
+            a(href='') branding
+          li.wow.will-animate
+            a(href='http://cateyebrand.tumblr.com/') tumblr
+          li.wow.will-animate
+            a(href='/about') about
+    <script src="//neon.galleriadisplay.com/a270110cf199879d130446cc6fb8fd86e35a761b/init.js"></script>
